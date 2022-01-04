@@ -1,0 +1,25 @@
+#nav {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 100px;
+  background-color: aqua;
+}
+.opt {
+  margin: 10px;
+  height: 20px;
+  width: 60px;
+  margin-top: 40px;
+  color: red;
+  font-weight: bold;
+}
+.opti {
+  margin: 10px;
+  height: 20px;
+  width: 60px;
+  margin-top: 40px;
+  color: red;
+  font-weight: bold;
+}
+h1 {
+  color: red;
+}

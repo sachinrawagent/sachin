@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://use.fontawesome.com/d86ba58ee6.js"></script>
+    <link rel="stylesheet" href="index.css" />
+    <style>
+      #prod {
+        height: 400px;
+        width: 300px;
+        margin-top: 10px;
+      }
+      img {
+        height: 100%;
+        width: 100%;
+      }
+      #item {
+        margin: 10px;
+        height: 20px;
+        width: 60px;
+        margin-top: 40px;
+        color: red;
+        font-weight: bold;
+      }
+      h1 {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to Masai Restaurant</h1>
+    <div id="nav">
+      <div class="opt">Login</div>
+      <div class="opt">Signup</div>
+      <div id="item" onclick="cart()">
+        <i class="fa fa-cart-arrow-down" aria-hidden="true"></i>0
+      </div>
+    </div>
+    <div id="prod"></div>
+  </body>
+</html>
+<script src="menu.js"></script>
